@@ -10,8 +10,8 @@ authors:
 repository-code: "https://github.com/glastor-core/specter"
 url: "https://glastor.es"
 license: MIT
-version: "0.1.0"
-date-released: "2026-11-07"
+version: "0.2.0"
+date-released: "2026-11-08"
 keywords:
   - rust
   - semver

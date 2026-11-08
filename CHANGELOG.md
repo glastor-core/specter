@@ -28,6 +28,19 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.2.0] - 2026-11-08
+
+### 🚀 Features
+- feat(action): append viral PR sticky comment footer and official badge snippet (`6c51889`)
+
+### 🛡️ Bug Fixes & Security
+- fix(ci): handle branch protection on release push and ignore image/doc paths (`5882f33`)
+
+### 📦 Maintenance & CI
+- docs(readme): replace Mermaid flowchart with professional SVG pipeline diagram (`aa7df86`)
+- ci(synergy): integrate glastor-core/byte-gauge@v1 binary hardening audit in CI (`5447bd3`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
