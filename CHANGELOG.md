@@ -28,6 +28,12 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.4.0] - 2026-11-15
+
+### 🚀 Features
+- feat(ci): add project roadmap triage automation workflow (`b4cb857`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
