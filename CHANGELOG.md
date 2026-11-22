@@ -28,6 +28,16 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.8.1] - 2026-11-22
+
+### 🛡️ Bug Fixes & Security
+- fix(branding): unify logo proportions, remove blue span on registered mark, and align vertical baselines (`2a857aa`)
+
+### 📦 Maintenance & CI
+- docs(web): update dual-hub governance location to Argentina (`94a6c36`)
+- style(branding): align GLASTOR® / RUST ENGINEERING brand text next to isologo (`f97570a`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
