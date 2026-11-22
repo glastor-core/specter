@@ -28,6 +28,16 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.7.0] - 2026-11-22
+
+### 🚀 Features
+- feat(assets): create organized folders for favicon and images (`be564ee`)
+
+### 📦 Maintenance & CI
+- style(web): remove redundant domain and org links from footer bottom bar (`185ec63`)
+- docs(web): add official GLASTOR® legal copyright and INPI compliance footer (`dfab071`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
