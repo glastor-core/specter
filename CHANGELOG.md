@@ -28,6 +28,12 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.6.0] - 2026-11-22
+
+### 🚀 Features
+- feat(seo): add robots.txt, sitemap.xml, explicit OpenGraph dimensions and enriched JSON-LD (`88ab194`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
