@@ -28,6 +28,29 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.5.0] - 2026-11-22
+
+### 🚀 Features
+- feat(web): add Astro landing page matching Red Hat design standard (`6f13af0`)
+
+### 🛡️ Bug Fixes & Security
+- fix(web): improve navbar responsiveness, prevent text wrapping and add mobile drawer (`15d7256`)
+
+### 📦 Maintenance & CI
+- docs(readme): pin release badge to main branch and clean unicode format (`861e1b6`)
+- docs: sync CONTRIBUTING.md to org GitHub/CNCF standard (`0602824`)
+- docs: add animated terminal demo SVG to README (`1156efa`)
+- chore(deps): bump sha2 from 0.10.9 to 0.11.1 (#4) (`6ae3325`)
+- docs(readme): add compiler comparison matrix, 5-line snippet & marketplace badge (`7842603`)
+- docs: add standard MIT LICENSE file (`3b766f6`)
+- chore(deps): bump actions/download-artifact from 4 to 8 (#10) (`a8267a2`)
+- chore(deps): bump softprops/action-gh-release from 2 to 3 (#9) (`f5f4403`)
+- chore(deps): bump actions/checkout from 4 to 7 (#6) (`fe29717`)
+- chore(deps): bump actions/cache from 4 to 6 (#5) (`58e21b4`)
+- chore(deps): bump actions/upload-artifact from 4 to 7 (#3) (`3d40d38`)
+- docs: add Codespaces, Watch/Fork badges, and Good First Issue contributing section (`8495343`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
