@@ -28,6 +28,12 @@ Este proyecto se adhiere a:
 
 ---
 
+## [0.8.0] - 2026-11-22
+
+### 🚀 Features
+- feat(branding): integrate full favicon suite and official isologo in navbar and footer (`cf9034f`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
