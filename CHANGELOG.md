@@ -28,6 +28,15 @@ Este proyecto se adhiere a:
 
 ---
 
+## [1.0.1] - 2026-11-27
+
+### 🛡️ Bug Fixes & Security
+- fix(rust-ast): eliminate infinite loop on arrow types in compact_rust_tokens (`1797b6a`)
+
+### 📦 Maintenance & CI
+- chore(deps): bump clap from 4.6.7 to 4.6.9 (#12) (`3050f42`)
+
+
 ## [Unreleased]
 
 ### 💡 Planned
