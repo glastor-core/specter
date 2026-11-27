@@ -551,11 +551,37 @@ fn compact_rust_tokens(raw: &str) -> String {
         ("[ ", "["),
         (" ]", "]"),
         (" ; ", "; "),
-        (" -> ", " -> "),
     ] {
+        if from == to || to.contains(from) {
+            continue;
+        }
         while s.contains(from) {
             s = s.replace(from, to);
         }
     }
     s.trim().to_string()
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn arrow_in_fn_and_closure_types_does_not_hang() {
+        let src = r#"
+            pub fn with_callback(
+                resolver: impl Fn(&str) -> Option<String>,
+                cb: fn(u32) -> Result<bool, String>,
+            ) -> Box<dyn FnMut(i32) -> ()> {
+                let _ = (resolver, cb);
+                Box::new(|_| ())
+            }
+        "#;
+        let syms = extract_rust_symbols(src, "src/lib.rs");
+        assert_eq!(syms.len(), 1);
+        assert_eq!(syms[0].name, "with_callback");
+        assert_eq!(syms[0].params.len(), 2);
+        assert!(syms[0].params[0].ty.contains("->"));
+        assert!(syms[0].return_type.contains("->"));
+    }
 }
